@@ -37,6 +37,6 @@ public class Person {
         this.name = name;
     }
 
-    // TODO (Activity 3): add the "email" field and its getter here.
+
 
 }

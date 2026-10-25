@@ -59,5 +59,19 @@ public class ProductService {
     }
 
 
+
+    public ProductService() {
+        products.add(new DigitalProduct(
+                8L, "java", 5000 , "www.thbkan", 5
+        ));
+
+        products.add(new PhysicalProduct(
+                5L, "Computer Mouse", 200, 0.2, "10x5x3 cm"
+        ));
+
+    }
+
+
+
 }
 
